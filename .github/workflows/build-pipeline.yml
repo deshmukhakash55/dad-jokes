@@ -34,9 +34,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: |
-          yarn install
-          yarn start
+        run: yarn start
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
